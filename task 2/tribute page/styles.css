@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #1e3d59;  /* Dark Blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #1e3d59;  /* Dark Blue */
+}
+
+#bio, #career, #gallery, #quote {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #917a7a;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-left: 5px solid #ffffff;  /* Coral */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #868d7e;  /* Coral */
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    background: #a1a592;  /* Coral */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background: #1e3d59;  /* Dark Blue */
+    color: #b7c5ac;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #c1b3b2;  /* Coral */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #1e3d59;  /* Dark Blue */
+    color: #c1a4a4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
